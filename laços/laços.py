@@ -7,25 +7,25 @@
 
 ### Estrutura para ler cada item de uma lista
 
-estados = ['PE','PB','RN','PI','BA'];
+estados = ['PE','PB','RN','PI','BA']
 
 for estado in estados:
-    print(estado);
-print('Fim do primeiro laço for.');
+    print(estado)
+print('Fim do primeiro laço for.')
 
 ### Estrutura que lê ao mesmo tempo o indice de cada item em uma lista e o seu conteúdo.
 
 for i in range (5):
-    print(i, estados[i]);
+    print(i, estados[i])
 print('Fim do segundo laço for.')
 
 ## While
 
 ### Estrutura para aumentar um contador 
 
-cont = 0;
+cont = 0
 
 while (cont < 5) :
-    print(cont);
-    cont += 1;
+    print(cont)
+    cont += 1
 print ('Fim do laço while.')

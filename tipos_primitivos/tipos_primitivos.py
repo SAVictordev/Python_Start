@@ -4,15 +4,15 @@
 
 
 # Tipo str (Texto alfanumérico)
-text = str(input("Qual o seu nome? "));
+text = str(input("Qual o seu nome? "))
 
 # Tipo int (Números inteiro)
-integer = int(input("Digite um número: "));
+integer = int(input("Digite um número: "))
 
 # Tipo float (Números fluantes)
-floatnumber = float(input("Enter the float number: "));
+floatnumber = float(input("Enter the float number: "))
 
 # Tipo Boolean (Verdadeiro ou Falso) 
-boolean = bool();
+boolean = bool()
 
 

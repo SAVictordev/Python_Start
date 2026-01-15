@@ -2,8 +2,8 @@
 ## caso contrário devera multiplicar A por B. Ao final de qualquer um dos cálculos deve-se atribuir o resultado a uma variável C e
 ## imprimir seu valor na tela.
 
-num1 = int(input("Digite o primeiro número: "));
-num2 = int(input("Digite o segundo número: "));
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
 
 if (num1 == num2):
     print('O valor é: ',soma := num1 + num2)

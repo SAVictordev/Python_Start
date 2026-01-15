@@ -2,4 +2,4 @@
 
 num1 = int(input("Digite um número: "))
 
-print("O número antecessor é: ",num1 - 1,' e o número sucessor é: ', num1 + 1);
+print("O número antecessor é: ",num1 - 1,' e o número sucessor é: ', num1 + 1)
