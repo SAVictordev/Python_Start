@@ -3,6 +3,7 @@
 ## Vetor é uma estrutura capaz de armazenar uma lista de informações ou um arranjo de valores
 
 estadosvetor = ['PE','PB','RN','PI','BA']
+numerosvetor =[1,2.4,3,4,5,6]
 
 ## .append() Adiciona um elemento no fim do vetor
 
@@ -35,3 +36,10 @@ print(estadosvetor.count("RO"))
 
 estadosvetor.clear()
 print(estadosvetor)
+
+## sum(vetor) Soma de todos os valores (inteiros ou flutuantes) do vetor 
+print(sum(numerosvetor))
+
+## len(vetor) mostra o tamanho do vetor (quantos itens tem dentro de um vetor)
+print(len(estadosvetor))
+print(len(numerosvetor))
