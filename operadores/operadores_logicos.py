@@ -8,12 +8,12 @@
 
 num1 = int(input("Digite o primeiro número: "))
 num2 = int(input("Digite o segundo número: "))
-trueorfalse = True
+true_or_false = True
                    
 if (num1 > num2 and num1 / num2 == 0):
     print("As duas condições do and foram atendidas")
 elif (num1 > num2 or num1 == num2):
     print("Uma das duas condições foram atendidas")
 else:
-    trueorfalse = not(trueorfalse)
-print(trueorfalse)
+    true_or_false = not(true_or_false)
+print(true_or_false)

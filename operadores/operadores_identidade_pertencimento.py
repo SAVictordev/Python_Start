@@ -6,8 +6,8 @@
 num1 = 45
 num2 = num1
 
-resp = num1 is num2
-print(resp)
+comparacao = num1 is num2
+print(comparacao)
 
 
 ## Operador de pertencimento
@@ -17,5 +17,5 @@ print(resp)
 
 estados = ['PE','PB','RN','PI','BA']
 
-resp2 = 'PE' in estados
-print(resp2)
+busca = 'PE' in estados
+print(busca)
