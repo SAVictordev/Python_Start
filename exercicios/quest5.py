@@ -3,8 +3,7 @@
 ##  (Base para o Salário mínimo R$ 1.293,20).
 
 salario = float(input("Digite seu salário: "))
-salariobase = 1293.20
+salario_base = 1293.20
 
-calcsalario = salario/salariobase
-
-print(calcsalario)
+salario_usuario = salario/salario_base
+print(salario_usuario)

@@ -9,10 +9,10 @@ nota2 = int(input("Digite a segunda nota do aluno: "))
 nota3 = int(input("Digite a terceira nota do aluno: "))
 nota4 = int(input("Digite a quarta nota do aluno"))
 
-notasvetor = [nota1, nota2, nota3, nota4]
-mediaaluno = sum(notasvetor)/len(notasvetor)
+notas_vetor = [nota1, nota2, nota3, nota4]
+media_aluno = sum(notas_vetor)/len(notas_vetor)
 
-if (mediaaluno >= 7) :
+if (media_aluno >= 7) :
     print("Aluno",nome, " aprovado!")
 else:
     print("Aluno",nome, " reprovado!")

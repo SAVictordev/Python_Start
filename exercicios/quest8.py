@@ -5,10 +5,10 @@ num1 = 0
 num2 = 5
 num3 = 10
 
-vetornum = [num1, num2, num3]
+vetor_num = [num1, num2, num3]
 
-vetornum.sort(reverse=True)
-print(vetornum)
+vetor_num.sort(reverse=True)
+print(vetor_num)
 
 ## Forma pura com condicionais
 
