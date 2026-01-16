@@ -4,6 +4,8 @@
 
 estadosvetor = ['PE','PB','RN','PI','BA']
 numerosvetor =[1,2.4,3,4,5,6]
+estado = "Pernambuco"
+textoestado = "Pernambuco berço do Brasil"
 
 ## .append() Adiciona um elemento no fim do vetor
 
@@ -43,3 +45,9 @@ print(sum(numerosvetor))
 ## len(vetor) mostra o tamanho do vetor (quantos itens tem dentro de um vetor)
 print(len(estadosvetor))
 print(len(numerosvetor))
+
+## list(variável com texto) transforma um texto em um vetor onde cada letra é um item na lista
+print(list(estado)) 
+
+# .split( parâmetro para definir a separação) transforma um texto ou frase em um vetor onde cada item na lista é definido a partir do paramêtro passado na função
+print(textoestado.split(" "))
