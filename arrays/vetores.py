@@ -51,3 +51,4 @@ print(list(estado))
 
 # .split( parâmetro para definir a separação) transforma um texto ou frase em um vetor onde cada item na lista é definido a partir do paramêtro passado na função
 print(textoestado.split(" "))
+
